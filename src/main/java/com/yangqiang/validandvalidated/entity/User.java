@@ -18,7 +18,7 @@ import javax.validation.constraints.NotNull;
 @NoArgsConstructor
 public class User {
 
-    @NotEmpty(message = "id不能为空")
+    @NotNull(message = "id不能为空")
     private Long id;
     @NotEmpty(message = "姓名不能为空 ")
     private String username;
