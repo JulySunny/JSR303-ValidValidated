@@ -24,4 +24,6 @@ public class User {
     private String username;
     @NotBlank(message = "密码不能为空")
     private String password;
+    /*添加字段*/
+    private String  add;
 }
