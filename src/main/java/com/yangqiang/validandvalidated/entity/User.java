@@ -26,4 +26,5 @@ public class User {
     private String password;
     /*添加字段*/
     private String  add;
+    private String  add2;
 }
